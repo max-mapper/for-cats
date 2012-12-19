@@ -96,10 +96,10 @@ h5.links {padding-top: 8px;}
 @media all and (max-width: 800px) {
  #logo img {width: 100px;}
  #logo {right: auto; left: 100px;}
- #main {top: 200px;}
+ #main {top: 200px; padding: 0; }
  .big, .little, header {width: 85%; padding: 10px 30px;}
- .whole {padding: 0px; margin-top: 80px; }
- .linksContainer { position: absolute; top: 120px; right: 0; left: 30px; }
+ .whole {padding: 0px; margin-top: 0px; }
+/* .linksContainer { position: absolute; top: 120px; right: 0; left: 30px; }*/
 }
 
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
