@@ -82,7 +82,7 @@ h5.links {padding-top: 8px;}
 .whole a:hover { border: 1px solid black; }
 .whole a:active { background: white; }
 .big {width: 60%; float: left;}
-.little {width: 26%; position: absolute; right: 0; bottom: 0; }
+.little {width: 50%; }
 .arrow {padding-left: 8px; padding-top: 10px;}	
 .smaller { font-size: 40px; }
 .tiny { font-size: 12px; }
@@ -90,7 +90,8 @@ h5.links {padding-top: 8px;}
 .project * { display: inline-block; }
 .project { background-repeat: no-repeat; width: 200px; height: 261px; padding-left: 220px; }
 .project .title { font-weight: bold; }
-
+p { margin-bottom: 0px; padding-bottom: 0px; }
+h4 { margin-top: 15px;}
 
 
 @media all and (max-width: 800px) {
